@@ -19,3 +19,17 @@ class Solution:
                 res += q.pop()
 
         return res
+    
+
+        # pizzas.sort()
+        # res = 0
+        # days = len(pizzas) // 4 + 1
+        # # odd days
+        # for _ in range(1, days, 2):
+        #     res += pizzas.pop()
+        # # even days
+        # for _ in range(2, days, 2):
+        #         pizzas.pop()
+        #         res += pizzas.pop()
+
+        # return res
